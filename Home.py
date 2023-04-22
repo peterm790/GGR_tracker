@@ -25,7 +25,7 @@ def get_leaderboard(date_hour):
         with fs.open(file, 'r') as f:
             data.append(pd.DataFrame(json.load(f), index = [name]))
     df = pd.concat(data).iloc[:,1:]
-    df.columns = ['ETA', , 'Estimated Time Elapsed', 'Finished']
+    df.columns = ['ETA', 'Estimated Time Elapsed', 'Finished']
     sortby = []
     for d in df['Estimated Time Elapsed']:
         sortby.append(pd.Timedelta(d).asm8)
