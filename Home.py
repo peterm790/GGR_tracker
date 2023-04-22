@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 import datetime
 
 st.set_page_config(layout="wide",
-                page_title="Pete's Rio Tracker",
+                page_title="Pete's GGR Tracker",
                 page_icon = ":sailboat:",
 )
 
@@ -96,7 +96,7 @@ st.write('')
 st.write(':blue[All times are UTC.]')
 st.write('')
 
-st.write(':red[This tracker has no affiliation with the Cape to Rio Race, or the official YellowBrick tracker.]')
+st.write(':red[This tracker has no affiliation with the GGR, or the YellowBrick tracker.]')
 
 
 st.write('')
