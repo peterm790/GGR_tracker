@@ -115,5 +115,3 @@ st.write('')
 st.write('')
 st.write('')
 st.write('')
-
-st.write('For any enquires contact me at petermarsh790@gmail.com')
